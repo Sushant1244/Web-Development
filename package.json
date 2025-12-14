@@ -1,0 +1,11 @@
+{
+  "name": "electrocart-fullstack",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"nodemon ../backend/server.js\" \"vite\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
